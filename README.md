@@ -1,4 +1,4 @@
-# Practica antes del 2do parcial JWT
+# Ejercicio #2 - 2do parcial JWT
 
 El siguiente es el 2do ejercicio del Segundo Parcial (01072021) de la materia de Sistemas Distribuidos (SIS258)
 

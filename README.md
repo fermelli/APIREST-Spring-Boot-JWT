@@ -24,10 +24,19 @@ mvn clean package
 ### Ejecutar
 
 ```console
-java -jar target/ejercicio2-0.0.1-SNAPSHOT.jar
+java -jar target/APIREST-Spring_Boot-JWT-0.0.1-SNAPSHOT.jar
+```
+
+El nombre del compilado depende del artifactId y de la version en las configuraciones de [pom.xml](./pom.xml)
+
+```xml
+<artifactId>APIREST-Spring_Boot-JWT</artifactId>
+<version>0.0.1-SNAPSHOT</version>
 ```
 
 ## Probar la API
+
+Configure Swagger en [SwaggerConfig.java](./src\main\java\com\fermelli\meet\swagger\SwaggerConfig.java)
 
 La interfaz de usuario de generada por SWAGGER corre en localhost en el puerto 8888: [SWAGGER UI](http://localhost:8888/swagger-ui.html)
 
